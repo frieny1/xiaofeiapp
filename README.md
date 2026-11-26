@@ -6,6 +6,7 @@
 
 - 网页版：https://xiaofeiapp-d9ghb3hggdc33c5b8-1473415600.tcloudbaseapp.com/xiaofei9/
 - 手机版：通过 `android/` 下的 WebView 壳打包成 APK（包名 `com.frieny.xiaofeiapp`）。
+- 直接下载 APK：[Releases · v2.6.0](https://github.com/frieny1/xiaofeiapp/releases/latest)
 
 ## 目录结构
 
@@ -23,7 +24,7 @@ xiaofeiapp/
 │   ├── res/drawable/app_icon.png
 │   └── build.sh            # 手动打包脚本（不依赖 Gradle）
 ├── dist/       # 已构建的安装包
-│   └── 日常消费-v2.6.0.apk
+│   └── xiaofei-v2.6.0.apk
 ├── archive/    # 历史版本归档
 │   └── v24/                # v24 原始文件（网页端四件套）
 └── docs/       # 文档

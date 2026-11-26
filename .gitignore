@@ -10,6 +10,8 @@ build/
 *.apk
 *.idsig
 *.aab
+# 例外：已发布的安装包作为交付物归档
+!dist/*.apk
 
 # 系统文件
 .DS_Store

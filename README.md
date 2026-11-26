@@ -22,6 +22,10 @@ xiaofeiapp/
 │   ├── src/com/frieny/xiaofeiapp/MainActivity.java
 │   ├── res/drawable/app_icon.png
 │   └── build.sh            # 手动打包脚本（不依赖 Gradle）
+├── dist/       # 已构建的安装包
+│   └── 日常消费-v2.6.0.apk
+├── archive/    # 历史版本归档
+│   └── v24/                # v24 原始文件（网页端四件套）
 └── docs/       # 文档
     ├── 日常消费-产品说明书.docx
     └── 日常消费-用户使用说明书.docx
